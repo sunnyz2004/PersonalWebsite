@@ -7,6 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const Timeline = () => {
+  const doctorcarepic = require('./doctorcarepic.jpeg');
    const eonpic = require('./eonpic.png');
    const balletpic = require('./eleganceballetstudiologo.png');
    const placeholderpic = require('./placeholder.png');
@@ -20,6 +21,48 @@ const Timeline = () => {
          My <span className="different">Timeline 💫</span>
        </h2>
        <VerticalTimeline >
+       <VerticalTimelineElement
+       date={"Sept 2023 - Dec 2023"}
+       contentStyle={{
+         boxShadow: `var(--shadow)`,
+         border: "3px solid var(--clr-primary)",
+         background: "var(--background-color)",
+         textAlign: "left",
+         color: `var(--clr-fg-alt)`,
+       }}
+       contentArrowStyle={{
+         color: "var(--title-font-color)"
+       }}
+       iconStyle={{
+         border: ` 3px solid var(--clr-primary)`,
+         borderRadius: "100%",
+         width: "60px",
+         height: "60px"
+        
+       }}
+       icon={<img src={doctorcarepic} alt="bannerpic"/>}
+       animate={true}
+       >
+       <h3
+         className="vertical-timeline-element-title"
+         data-aos="fade-right"
+       >
+         Backend Software Developer
+       </h3>
+      <h4
+          className="vertical-timeline-element-subtitle"
+          data-aos="fade-right"
+      >
+          <a href="https://www.doctorcare.ca/" target="_blank">DoctorCare</a>
+      </h4>
+       <p data-aos="fade-right">
+       • Led the expansion of Canada's largest provider of billing support and practice optimization services for 2000+ physicians, utilizing Agile methodologies, Django, SQL, and AWS technologies
+       • Automated and managed the extraction of doctors' meeting availability from extensive CSV files using OpenAI API and pandas, resulting in a 75% increase in scheduling efficiency with physicians
+       </p>
+       <p data-aos="fade-right">
+       </p>
+     </VerticalTimelineElement>
+
          <VerticalTimelineElement
            date={"Jan 2023 - April 2023"}
            contentStyle={{
@@ -59,8 +102,9 @@ const Timeline = () => {
 
            </h4>
            <p data-aos="fade-right">
-           • Designed wireframes, user flows, using Figma; increased 22% user engagement through AI-powered digital storefronts for streaming services. {<br/>} {<br/>}
-           • Led the QA team and kickstarted comprehensive testing plans, leveraged automation tools to optimize testing efficiency and accuracy. {<br/>} {<br/>}
+           • Revamped the mobile search page for WRAL Archives to enhance UI components and streamline the navigation experience, resulting in a 22% increase in user engagement through increased content
+             discovery {<br/>} {<br/>}
+           • Led the tech team and kickstarted comprehensive testing plans, leveraged automation tools to optimize testing efficiency and accuracy. {<br/>} {<br/>}
            • Investigated, tracked and triaged crashes, bugs, and their fixes using JIRA, Git, and Fabric. {<br/>} {<br/>}
            • Collaborated closely with PMs, stakeholders to ensure the success of the launch. {<br/>} {<br/>}
            </p>

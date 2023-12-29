@@ -32,7 +32,7 @@ const Skills = () => {
 
         <section className="card show">
         <div className="skills__content">
-            <h3 className="skills__title"> ✏️ UX/UI Designer</h3>
+            <h3 className="skills__title"> ✏️ Product Designer</h3>
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
@@ -49,7 +49,27 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">HTML&CSS</h3>
+                            <h3 className="skills__name">Design Thinking</h3>
+                            <span className="skills_level"></span>
+
+                        </div> 
+                    </div>
+
+                    <div className="skills__data">
+                    <i class = 'bx bx-sun'></i>
+
+                       <div>
+                            <h3 className="skills__name">HTML/CSS</h3>
+                            <span className="skills_level"></span>
+
+                        </div> 
+                    </div>
+
+                    <div className="skills__data">
+                    <i class = 'bx bx-sun'></i>
+
+                       <div>
+                            <h3 className="skills__name">User Research</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -69,27 +89,7 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">Wireframing</h3>
-                            <span className="skills_level"></span>
-
-                        </div> 
-                    </div>
-
-                    <div className="skills__data">
-                    <i class = 'bx bx-sun'></i>
-
-                       <div>
-                            <h3 className="skills__name">Empathy</h3>
-                            <span className="skills_level"></span>
-
-                        </div> 
-                    </div>
-
-                    <div className="skills__data">
-                    <i class = 'bx bx-sun'></i>
-
-                       <div>
-                            <h3 className="skills__name">Curiousity</h3>
+                            <h3 className="skills__name">Dev Handoffs</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -120,17 +120,7 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">Slack</h3>
-                            <span className="skills_level"></span>
-
-                        </div> 
-                    </div>
-
-                    <div className="skills__data">
-                    <i class = 'bx bx-sun'></i>
-
-                       <div>
-                            <h3 className="skills__name">JIRA</h3>
+                            <h3 className="skills__name">Risk Management</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -150,7 +140,7 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">Diplomacy</h3>
+                            <h3 className="skills__name">Communication Plan</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -160,7 +150,17 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">Leadership</h3>
+                            <h3 className="skills__name">Resource Allocation</h3>
+                            <span className="skills_level"></span>
+
+                        </div> 
+                    </div>
+
+                    <div className="skills__data">
+                    <i class = 'bx bx-sun'></i>
+
+                       <div>
+                            <h3 className="skills__name">Critical Path</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -181,7 +181,7 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">Python</h3>
+                            <h3 className="skills__name">HTML/CSS</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -191,7 +191,7 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">Java</h3>
+                            <h3 className="skills__name">React</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -211,7 +211,7 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">C++</h3>
+                            <h3 className="skills__name">Typescript</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -221,7 +221,7 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">HTML</h3>
+                            <h3 className="skills__name">Java</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -231,7 +231,7 @@ const Skills = () => {
                     <i class = 'bx bx-sun'></i>
 
                        <div>
-                            <h3 className="skills__name">CSS</h3>
+                            <h3 className="skills__name">Responsive Design</h3>
                             <span className="skills_level"></span>
 
                         </div> 
@@ -243,6 +243,68 @@ const Skills = () => {
         </div>        
         </section>
 
+        <section className="card hidden">
+    <div className="skills__content">
+        <h3 className="skills__title">🚀 Back-End Engineer</h3>
+        <div className="skills__box">
+            <div className="skills__group">
+                <div className="skills__data">
+                    <i className="bx bx-sun"></i>
+
+                    <div>
+                        <h3 className="skills__name">Python</h3>
+                        <span className="skills_level"></span>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className="bx bx-sun"></i>
+
+                    <div>
+                        <h3 className="skills__name">Django</h3>
+                        <span className="skills_level"></span>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className="bx bx-sun"></i>
+
+                    <div>
+                        <h3 className="skills__name">Datadog Tracking</h3>
+                        <span className="skills_level"></span>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className="bx bx-sun"></i>
+
+                    <div>
+                        <h3 className="skills__name">Database Management (e.g., MongoDB, MySQL)</h3>
+                        <span className="skills_level"></span>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className="bx bx-sun"></i>
+
+                    <div>
+                        <h3 className="skills__name">RESTful APIs</h3>
+                        <span className="skills_level"></span>
+                    </div>
+                </div>
+
+                <div className="skills__data">
+                    <i className="bx bx-sun"></i>
+
+                    <div>
+                        <h3 className="skills__name">Testing Frameworks (e.g., PyTest)</h3>
+                        <span className="skills_level"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
         </div>
     </section>

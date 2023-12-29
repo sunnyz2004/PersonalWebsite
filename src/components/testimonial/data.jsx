@@ -12,5 +12,12 @@ export const Data = [
         "Sunny performs outstanding work as a project manager. Her attention to detail and ability to keep all team members on track and motivated are truly remarkable. She consistently delivers projects on time and within budget, while ensuring that all stakeholders are informed and involved throughout the process. I have had the pleasure of working with Sunny on several projects, and each time, I have been impressed by her leadership, organization, and dedication to achieving successful outcomes. I highly recommend Sunny for any project management role.",
         
     },
+    {
+        id: 3,
+        title: "Supervisor - DoctorCare",
+        description: 
+        "Sunny has proven to be an outstanding co-op student by being recognized as a full-time-equivalent member of the team. Work assigned to Sunny is done with ease knowing that Sunny is capable of briefing on the problem up front and working on the solution independently. She also shows great ownership overfeatures she has worked on by hopping onto bugs created or features requested immediately. Anecdotally, when her coworkers see work assigned to her, they can feel safe knowing they do not have to check in on her progress worrying that she is struggling, complacent, or writing poor quality code. All of her accomplishments ultimately stem from her intangibles, such as her enthusiasm to identify opportunities to work on newer skills and persistent desire for feedback. There's no doubt that she has the capacity to grow quickly."
+    },
+    
 
 ];

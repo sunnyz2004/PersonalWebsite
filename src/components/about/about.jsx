@@ -47,9 +47,9 @@ const About = () => {
             </div>
         </div>
                     <p className="about__description"> 
-                    Hey there, seems like you've stumbled upon my little corner of the web. I'm glad you're here! My name is Sunny, a UI/UX designer intern and QA Manager intern in parallel in Toronto. 
-                    This is my personal site, a creative outlet that is all me - simple, organic, raw 
-                    and unadulterated illustration of myself, my published works and achievements composed over the years. Go ahead. Explore around, break a few things while you're at it and hopefully in the process get learn a little bit more about me.
+                    Hey there, seems like you've stumbled upon my little corner of the web. I'm glad you're here! My name is Sunny and welcome to my personal site, a creative outlet that is all me - simple, organic, raw 
+                    and unadulterated illustration of myself, my published works and achievements composed over the years. Go ahead. Explore around, break a few things while you're at it and hopefully in the process get learn 
+                    a little bit more about me.
                     </p>
 
 

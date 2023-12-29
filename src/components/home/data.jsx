@@ -63,7 +63,7 @@ const Data = () => {
                     "I am driven by goal-oriented people",
                     "I am passionate in creating good in the world",
                     "I cherish the opportunities that tech provides",
-                    "I am an aspiring UX/UI Designer",
+                    "I am an aspiring software developer and product designer",
                     "I am a hopeful web developer",
                 ]}
                 typeSpeed={50}
@@ -72,7 +72,7 @@ const Data = () => {
 
             />
                 </span>
-            <p className="home__description">I am a UI/UX Designer based in Toronto. Get to know me better! </p> 
+            <p className="home__description">I am a software developer and product designer based in Toronto. Get to know me better! </p> 
 
             <a href="https://www.linkedin.com/in/sun-z/" className="button button--flex">
                 Say Hello!
