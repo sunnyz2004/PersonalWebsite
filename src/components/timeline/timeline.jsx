@@ -9,7 +9,7 @@ import "react-vertical-timeline-component/style.min.css";
 const Timeline = () => {
   const doctorcarepic = require('./doctorcarepic.png');
    const eonpic = require('./eonpic.png');
-   const balletpic = require('./eleganceballetstudiologo.png');
+   const balletpic = require('./eleganceballetstudiologo.png'); 
    const winupsurepic = require('./title.png');
    const babypic = require('./babypic.png');
 
