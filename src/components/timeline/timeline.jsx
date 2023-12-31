@@ -7,10 +7,10 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const Timeline = () => {
-  const doctorcarepic = require('./doctorcarepic.jpeg');
+  const doctorcarepic = require('./doctorcarepic.png');
    const eonpic = require('./eonpic.png');
    const balletpic = require('./eleganceballetstudiologo.png');
-   const placeholderpic = require('./placeholder.png');
+   const winupsurepic = require('./title.png');
    const babypic = require('./babypic.png');
 
 
@@ -85,8 +85,6 @@ const Timeline = () => {
            icon={<img src={eonpic} alt="bannerpic"/>}
 
            animate={true}
-
-
          >
            <h3
              className="vertical-timeline-element-title"
@@ -128,11 +126,9 @@ const Timeline = () => {
              color: `var(--clr-primary)`,
            }}
 
-          icon={<img src={placeholderpic} alt="bannerpic"/>}
+          icon={<img src={winupsurepic} alt="bannerpic"/>}
 
            animate={true}
-
-
          >
            <h3
              className="vertical-timeline-element-title"
@@ -152,6 +148,8 @@ const Timeline = () => {
            • Twice awarded “Top Employee” commendation at the company’s annual employee recognition event {<br/>}{<br/>}
            </p>
          </VerticalTimelineElement>
+
+
          <VerticalTimelineElement
            date={"Sept 2021 - June 2022"}
            contentStyle={{
@@ -172,8 +170,6 @@ const Timeline = () => {
            icon={<img src={balletpic} alt="bannerpic"/>}
 
            animate={true}
-
-
          >
            <h3
              className="vertical-timeline-element-title"

@@ -243,7 +243,7 @@ const Skills = () => {
         </div>        
         </section>
 
-        <section className="card hidden">
+        <section className="card show">
     <div className="skills__content">
         <h3 className="skills__title">🚀 Back-End Engineer</h3>
         <div className="skills__box">
@@ -279,7 +279,7 @@ const Skills = () => {
                     <i className="bx bx-sun"></i>
 
                     <div>
-                        <h3 className="skills__name">Database Management (e.g., MongoDB, MySQL)</h3>
+                        <h3 className="skills__name">Database Management (MongoDB, MySQL)</h3>
                         <span className="skills_level"></span>
                     </div>
                 </div>
@@ -297,7 +297,7 @@ const Skills = () => {
                     <i className="bx bx-sun"></i>
 
                     <div>
-                        <h3 className="skills__name">Testing Frameworks (e.g., PyTest)</h3>
+                        <h3 className="skills__name">Testing Frameworks (PyTest)</h3>
                         <span className="skills_level"></span>
                     </div>
                 </div>
